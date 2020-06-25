@@ -1,7 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[3]:
+1.binary number to decimal
 
 
 b=int(input("enter the binary number  "))
@@ -18,7 +15,7 @@ while True:
 print("decimal number  ",r)
 
 
-# In[4]:
+2.fibonacci series
 
 
 n=int(input("enter the number of fibonacci series numbers"))
@@ -38,20 +35,15 @@ else:
         n=n-1
 
 
-# In[5]:
+3.multiplication table of k
 
 
 k=int(input("enter the value of k  "))
 for i in range(1,11):
-    print(
-        
-        
-        
-        k,"*",i ,"=",k*i)
+    print(k,"*",i ,"=",k*i)
 
 
-# In[1]:
-
+4.GCF
 
 x=int(input("enter the number1  "))
 y=int(input("enter the number2   "))
@@ -66,7 +58,7 @@ else:
             print(g)
 
 
-# In[6]:
+5.reverse
 
 
 def reverse(x):
@@ -77,7 +69,7 @@ t = reverse("jupyter")
 print(t)
 
 
-# In[8]:
+6.even and odd numbers
 
 
 l={1,2,3,4,5,6,7,8,84,9,93,99}
